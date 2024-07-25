@@ -39,7 +39,7 @@ while count < total_chances:
 # If Guessing is more than required guesses,
 # shows this output.
 if not flag:
-    print("\nThe number is %d" % x)
+    print(f"\nThe number is {x}")
     print("\tBetter Luck Next time!")
 
 # Better to use This source Code on pycharm!
