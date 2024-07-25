@@ -10,7 +10,7 @@ upper = int(input("Enter Upper bound:- "))
 # the lower and upper
 x = random.randint(lower, upper)
 total_chances = math.ceil(math.log(upper - lower + 1, 2))
-print("\n\tYou've only ", total_chances, " chances to guess the integer!\n")
+print(f"\n\tYou've only {total_chances} chances to guess the integer!\n")
 
 # Initializing the number of guesses.
 count = 0
